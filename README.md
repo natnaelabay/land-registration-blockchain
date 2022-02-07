@@ -1,4 +1,4 @@
-# Land Registration (Blockchain based)
+# Land Registration (Blockchain based / DApp)
 
 This is repository tries to simulate one of the application of blockchain in our day today life. The current land registration in our country is paper based and prone to bureaucratic and corruption acts. 
 
