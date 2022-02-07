@@ -1,60 +1,63 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-custom fixed-top">
-    <a class="navbar-brand logo-image" href="index.html"
-      ><img src="/static/images/logo.svg" alt="alternative"
-    /></a>
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-toggle="collapse"
-      data-target="#navbarsExampleDefault"
-      aria-controls="navbarsExampleDefault"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-awesome fas fa-bars"></span>
-      <span class="navbar-toggler-awesome fas fa-times"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <router-link class="nav-link page-scroll" to="/login"
-            >BUY <span class="sr-only">(current)</span></router-link
-          >
-        </li>
-        <li class="nav-item">
-          <router-link
-            class="nav-link page-scroll"
-            :to="{ name: 'transactions' }"
-          >
-            TRANSACTIONS</router-link
-          >
-        </li>
-        <li class="nav-item"> 
-          <router-link class="nav-link page-scroll" :to="{ name: 'Register' }"
-            >REGISTER</router-link
-          >
-        </li>
-        <li class="nav-item">
-          <router-link class="nav-link page-scroll" :to="{ name: 'Login' }"
-            >Login</router-link
-          >
-        </li>
-      </ul>
-      <span class="nav-item social-icons">
-        <span class="fa-stack">
-          <a href="#your-link">
-            <i class="fas fa-circle fa-stack-2x"></i>
-            <i class="fab fa-facebook-f fa-stack-1x"></i>
-          </a>
-        </span>
-        <span class="fa-stack">
-          <a href="#your-link">
-            <i class="fas fa-circle fa-stack-2x"></i>
-            <i class="fab fa-twitter fa-stack-1x"></i>
-          </a>
-        </span>
-      </span>
+  <header id="header" class="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="text-container">
+            <div class="countdown">
+              <span id="clock"></span>
+            </div>
+            <h1 class="w-100">Blockchain based land registration system</h1>
+            <p class="p-large">
+              The blockchain allows our smart devices to speak to each other
+              better and faster.
+            </p>
+            <router-link
+              :to="{ name: 'Register' }"
+              class="btn-solid-lg page-scroll"
+              href="#register"
+              >REGISTER</router-link
+            >
+            <router-link
+              :to="{ name: 'Register' }"
+              class="btn-outline-lg page-scroll"
+              href="#instructor"
+              >BUY</router-link
+            >
+          </div>
+        </div>
+      </div>
     </div>
-  </nav>
+    <div class="outer-container">
+      <div class="slider-container">
+        <div class="swiper-container image-slider-1">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                class="img-fluid"
+                src="/static/images/details-slide-1.jpg"
+                alt="alternative"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="img-fluid"
+                src="/static/images/details-slide-2.jpg"
+                alt="alternative"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="img-fluid"
+                src="/static/images/details-slide-3.jpg"
+                alt="alternative"
+              />
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+    </div>
+  </header>
 </template>
