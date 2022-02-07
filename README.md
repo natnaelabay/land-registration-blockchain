@@ -36,6 +36,7 @@ So what we have done is integrated both blockchain and GIS technologies to regis
 |  3.  | Land ownership transaction  | Blockchain  |
 |  4.  | Land ownership payment  | Blockchain (in Eth)  |
 |  5.  | Account creation  | Blockchain |
+|  6.  | Transaction monitoring  | GIS and Blockchain |
 
 * with every transaction is completed with a small Gas fee and payment is based on Ethereum
 
