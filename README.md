@@ -11,7 +11,7 @@ So what we have done is integrated both blockchain and GIS technologies to regis
 - [Vue.js](https://v2.vuejs.org/) as our frontend framework
 - [Mapbox](https://www.mapbox.com/) For handling Spatial data
 - [Metamask](https://www.mapbox.com/) for handling our Ethereum wallet
-
+- [Web3.js](https://web3js.readthedocs.io/en/v1.7.0/) for connecting our Vue.js web application with the blockchain
 
 ## Steps to running the program
 1. Install the truffle cli first <br>
@@ -23,7 +23,7 @@ So what we have done is integrated both blockchain and GIS technologies to regis
 5. Fire up Ganache and run <br>
     `truffle compile ` ## this will compile our contracts and migrate it to our blockchain <br>
 6. Copy the LandRegistration.JSON file in /contracts/build/contracts/ directory and replace it with /clients/src/assets/LandRegistration.JSON  <br>
-7. To simulate the distributed transaction open 2 different browsers or chrome in incognito and without <br>
+7. To simulate the distributed transaction open 2 different browsers or chrome in incognito and without. Go into the /client directory and run the following command to run the web server <br>
     `npm install or yarn` <br>
     `yarn serve` <br>
 8. After setting this up you will be able to simulate to some extent how blockchain could be used in land registration.
