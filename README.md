@@ -22,8 +22,8 @@ So what we have done is integrated both blockchain and GIS technologies to regis
 4. Install Metamask browser extension from this [link](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en). <br><b>NB :</b> by default when ganache is installed 10 test accounts are created with 100 ETH in each and you will need to import three of these accounts to metamask to test the program (1 for the super user or official, 2 for normal users to simulate the transactions) 
 5. Fire up Ganache and run <br>
     `truffle compile ` ## this will compile our contracts and migrate it to our blockchain <br>
-6. Copy the LandRegistration.JSON file in /contracts/build/contracts/ directory and replace it with /clients/src/assets/LandRegistration.JSON  <br>
-7. To simulate the distributed transaction open 2 different browsers or chrome in incognito and without. Go into the /client directory and run the following command to run the web server <br>
+6. Copy the LandRegistration.JSON file in `/contracts/build/contracts/` directory and replace it with `/clients/src/assets/LandRegistration.JSON`  <br>
+7. To simulate the distributed transaction open 2 different browsers or chrome in incognito and without. Go into the `/client` directory and run the following command to run the web server <br>
     `npm install or yarn` <br>
     `yarn serve` <br>
 8. After setting this up you will be able to simulate to some extent how blockchain could be used in land registration.
