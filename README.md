@@ -13,7 +13,7 @@ So what we have done is integrated both blockchain and GIS technologies to regis
 - [Metamask](https://www.mapbox.com/) for handling our Ethereum wallet
 - [Web3.js](https://web3js.readthedocs.io/en/v1.7.0/) for connecting our Vue.js web application with the blockchain
 
-## Steps to running the program
+## Steps to running the program 
 1. Install the truffle cli first <br>
     `npm install -g truffle`
 2. Install the Ganache Cli <br>
